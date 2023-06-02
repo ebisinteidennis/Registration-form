@@ -58,17 +58,68 @@
 
 
      
-            <div><!--This div is for the courses-->
-                <h3>Courses</h3>
-                <form>
-                    <input type="record" name="record" id="record" placeholder="" required>
-                    <input type="email" name="cemail" id="confirmemail" placeholder="" required>
-                </form>
-            </div><!--The end of the div containing the Courses-->
+            <!-- <div><!This div is for the courses-->
+             <!--    <h3>Courses</h3>
+                <form> -->
+                   <!--  <input type="record" name="record" id="record" placeholder="" required>
+                    <input type="email" name="cemail" id="confirmemail" placeholder="" required> -->
+                <!-- </form>  -->
+            <!-- </div> -->
+            <!--The end of the div containing the Courses-->
 
+        <!-- ebisintei section in your code -->
+
+<div><!--This div is for the course, level, language, and start date-->
+    <h3>Course Details</h3>
+    <form action="" name="courseDetails" id="courseDetails">
+        <div>
+            <label for="courseSelection">Course:</label>
+            <select name="courseSelection" id="courseSelection" required>
+                <option value="" selected disabled>Select a course</option>
+                <option value="course1">Course 1</option>
+                <option value="course2">Course 2</option>
+                <option value="course3">Course 3</option>
+                <option value="course4">Course 4</option>
+                <option value="course5">Course 5</option>
+                <option value="course6">Course 6</option>
+                <option value="course7">Course 7</option>
+                <option value="course8">Course 8</option>
+                <option value="course9">Course 9</option>
+                <option value="course10">Course 10</option>
+            </select>
+        </div>
+        <div>
+            <label for="levelSelection">Level:</label>
+            <select name="levelSelection" id="levelSelection" required>
+                <option value="" selected disabled>Select a level</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+        </div>
+        <div>
+            <label for="languageSelection">Language:</label>
+            <select name="languageSelection" id="languageSelection" required>
+                <option value="" selected disabled>Select a language</option>
+                <option value="english">English</option>
+                <option value="spanish">Spanish</option>
+                <option value="french">French</option>
+                <option value="german">German</option>
+                <option value="chinese">Chinese</option>
+            </select>
+        </div>
+        <div>
+            <label for="startDate">Start Date:</label>
+            <input type="date" name="startDate" id="startDate" required>
+        </div>
+    </form>
+</div><!--The end of the div containing the course, level, language, and start date-->
+
+
+        <!-- end of ebisintei section in your code -->
 
 
     </div> <!--The end of the parent div-->
-
+   
 </body>
 </html>
