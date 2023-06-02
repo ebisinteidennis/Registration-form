@@ -1,4 +1,4 @@
-body {
+/*body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
@@ -33,13 +33,14 @@ select {
   border-radius: 4px;
   border: 1px solid #ccc;
   box-sizing: border-box;
+
 }
 
 input[type="submit"],
 button[type="submit"] {
   background-color: #4caf50;
   color: white;
-  padding: 10px 15px;
+  padding: 10px 15px; 
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -53,37 +54,38 @@ button[type="submit"]:hover {
 /* Additional Styles for Specific Sections */
 
 /* Logo and Heading */
-div > img {
+/*div > img {
   max-width: 200px;
   margin-bottom: 10px;
+  flex: 1;
 }
 
 /* Student Information */
-#student input[type="text"],
+/*#student input[type="text"],
 #student input[type="date"] {
   width: calc(50% - 5px);
   margin-right: 5px;
-}
+}*/
 
 /* Address */
-#address input[type="text"],
+/*#address input[type="text"],
 #address input[type="number"] {
   width: calc(50% - 5px);
   margin-right: 5px;
-}
+}*/
 
 /* Course Details */
-#courseDetails div {
+/*#courseDetails div {
   margin-bottom: 10px;
 }
-
+*/
 /* Comments */
-#comments {
+/*#comments {
   height: 100px;
 }
-
+*/
 /* Responsive Styles */
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   #student input[type="text"],
   #student input[type="date"],
   #address input[type="text"],
@@ -91,4 +93,85 @@ div > img {
     width: 100%;
     margin-right: 0;
   }
+}
+*/
+
+/*input[type="id"] {
+  /* Add your custom styles here */
+ /* width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;*/
+}/*/*/
+
+
+/* Reset default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set box-sizing for all elements */
+html {
+  box-sizing: border-box;
+}
+
+/* Set background color */
+body {
+  background-color: white;
+}
+
+/* Container styles */
+div {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+}
+
+/* Logo and heading styles */
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+/* Form styles */
+form {
+  display: grid;
+  gap: 10px;
+}
+
+/* Label styles */
+label {
+  font-weight: bold;
+}
+
+/* Input styles */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+/* Button styles */
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+button[type="submit"]:focus {
+  outline: none;
 }
